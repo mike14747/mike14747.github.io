@@ -199,11 +199,37 @@ a:hover {
     margin: 20px auto;
 }
 
+.layout6 {
+    vertical-align: middle;
+    width: 51px;
+    height: 50px;
+    border: 0;
+}
+.layout7 {
+    float: left;
+    width: 439px;
+    height: 247px;
+    margin: 0 20px 20px 0;
+}
+
+.layout8 {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+}
+
 .compare {
     width: 500px;
     height: 110px;
     float: right;
     margin: 0 0 0 25px;
+}
+
+#find_me {
+    line-height: 50px;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .img_container {
