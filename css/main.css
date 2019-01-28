@@ -237,15 +237,15 @@ a:hover {
     height: 225px;
     float: left;
     margin: 0 20px 20px 0;
+    position: relative;
 }
 
 .img_label {
     width: 280px;
     padding: 10px;
     z-index: 2;
-    position: relative;
-    bottom: 75px;
-    left: 0px;
+    position: absolute;
+	top: 150px;
     background: #4aaaa5;
     color: #ffffff;
     text-align: center;
