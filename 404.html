@@ -3,37 +3,77 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- reset CSS -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- include my bootstrap companion style sheet -->
+    <link rel="stylesheet" type="text/css" href="css/bs_comp_styles.css">
+
     <title>Mike Gullo - Error 404</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 
 <body>
 
-    <div id="header_container">
+    <div class="border-bottom w-100 bg-white">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white mx-auto mw-960px p-0">
+            <h2 class="text-white bg-aqua font-weight-bold m-0 p-4 serif-font">Mike Gullo</h2>
 
-        <div id="div_header">
-            <header>
-                <h1 id="top_header">Mike Gullo</h1>
-            </header>
+            <!-- button to expand navbar -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <nav id="nav_right">
-                <p><a href="index.html">About</a> &nbsp;<span class="lighter">|</span> &nbsp;<a href="portfolio.html">Portfolio</a>
-                    &nbsp;<span class="lighter">|</span> &nbsp;<a href="contact.html">Contact</a></p>
-            </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item border-right">
+                        <a class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <li class="nav-item border-right">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container bg-white mw-960px mt-4 pt-4 pb-75px border">
+
+            <div class="row">
+    
+                <div class="col-12-sm w-100 pl-4 pr-4">
+                    <h3 class="text-aqua serif-font font-weight-bold bb-2 mb-4 pb-4">Error 404</h3>
+                    <p>An error has occurred. The page you are looking for does not exist!</p>
+                </div>
+    
+            </div>
+    
         </div>
 
-    </div>
-
-    <div id="content_container">
-        <section>
-            <h2 id="content_header">Error 404</h2>
-
-            <p>An error has occurred. The page you are looking for does not exist!</p>
-        </section>
-    </div>
-
-    <footer id="footer_content">
-        <span class="footer1">Copyright &#169; 2019</span>
+    <footer class="w-100 d-flex align-items-center justify-content-center bg-secondary text-light fixed-bottom"
+        id="footer">
+        <span class="small">Copyright &#169; 2019</span>
     </footer>
 
 </body>
