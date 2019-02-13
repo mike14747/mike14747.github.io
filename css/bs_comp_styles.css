@@ -18,6 +18,12 @@ body {
     border-bottom: 2px solid #dee2e6;
 }
 
+.brief {
+    font-size: 18px;
+    color: #4aaaa5;
+    font-weight: 600;
+}
+
 #footer {
     height: 50px;
     border-top: 8px solid #4aaaa5;
@@ -60,6 +66,15 @@ p {
     font-size: 1.1em;
     z-index: 2;
 	top: 58%;
+}
+
+.list-group {
+    list-style: decimal inside;
+}
+
+.list-group-item {
+    display: list-item;
+    border: 0;
 }
 
 @media (max-width: 991.98px) {
