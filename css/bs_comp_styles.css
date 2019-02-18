@@ -65,7 +65,8 @@ p {
     height: 25%;
     font-size: 1.1em;
     z-index: 2;
-	top: 58%;
+    top: 58%;
+    opacity: 0.9;
 }
 
 .list-group {
