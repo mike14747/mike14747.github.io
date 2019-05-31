@@ -6,7 +6,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/Hangman",
         image: "images/hangman.jpg",
         alt_text: "Fruit and Vegetable Hangman",
-        tech: ["Javascript", "HTML", "CSS", "Bootstrap"],
+        tech: ["Javascript", "HTML", "CSS", "Bootstrap", "Responsive"],
         active: true
     },
     {
@@ -16,7 +16,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/Mortal-Kombat-RPG",
         image: "images/mortal_kombat.jpg",
         alt_text: "Mortal Kombat RPG Game",
-        tech: ["Javascript", "JQuery", "Bootstrap"],
+        tech: ["Javascript", "JQuery", "Bootstrap", "Responsive"],
         active: true
     },
     {
@@ -26,7 +26,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/TriviaGame",
         image: "images/baseball_trivia.jpg",
         alt_text: "Baseball Trivia",
-        tech: ["Javascript", "JQuery", "Bootstrap"],
+        tech: ["Javascript", "JQuery", "Bootstrap", "Responsive"],
         active: true
     },
     {
@@ -36,7 +36,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/giphyAPI",
         image: "images/giphyAPI.jpg",
         alt_text: "Space giphyAPI",
-        tech: ["Javascript (all vanilla except JQuery ajax calls)", "APIs", "JSON", "Bootstrap"],
+        tech: ["Javascript (all vanilla except JQuery ajax calls)", "APIs", "JSON", "Bootstrap", "Responsive"],
         active: true
     },
     {
@@ -46,7 +46,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/Train-Scheduler",
         image: "images/train_scheduler.jpg",
         alt_text: "Train Scheduler",
-        tech: ["Javascript", "JQuery", "Bootstrap", "Firebase", "Moment JS"],
+        tech: ["Javascript", "JQuery", "Bootstrap", "Firebase", "Moment JS", "Responsive"],
         active: true
     },
     {
@@ -56,7 +56,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/LocalEyes",
         image: "images/localeyes.jpg",
         alt_text: "LocalEyes",
-        tech: ["Javascript", "JQuery", "APIs", "JSON", "Bootstrap"],
+        tech: ["Javascript", "JQuery", "APIs", "JSON", "Bootstrap", "Responsive"],
         active: true
     },
     {
@@ -96,7 +96,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/FriendFinder",
         image: "images/friendfinder.jpg",
         alt_text: "Friend Finder",
-        tech: ["Javascript", "JQuery", "Node", "Express JS", "Bootstrap-only CSS"],
+        tech: ["Javascript", "JQuery", "Node", "Express JS", "Bootstrap-only CSS", "Responsive"],
         active: true
     },
     {
@@ -106,7 +106,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/burger",
         image: "images/burger.jpg",
         alt_text: "Veggie Burger",
-        tech: ["Javascript", "JQuery", "MySQL", "Handlebars", "Node", "Express JS", "Bootstrap-only CSS"],
+        tech: ["Javascript", "JQuery", "MySQL", "Handlebars", "Node", "Express JS", "Bootstrap-only CSS", "Responsive"],
         active: true
     },
     {
@@ -116,7 +116,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/sequelizedBurger",
         image: "images/seq_burger.jpg",
         alt_text: "Sequelized Veggie Burger",
-        tech: ["Javascript", "JQuery", "Sequelize ORM", "MySQL", "Handlebars", "Node", "Express JS", "Bootstrap-only CSS"],
+        tech: ["Javascript", "JQuery", "Sequelize ORM", "MySQL", "Handlebars", "Node", "Express JS", "Bootstrap-only CSS", "Responsive"],
         active: true
     },
     {
@@ -126,18 +126,18 @@ var portfolioItems = [
         github_repo: "https://github.com/letscook1/project2",
         image: "",
         alt_text: "eMartketplace",
-        tech: ["Javascript", "JQuery", "Sequelize ORM", "MySQL", "Handlebars", "Node", "Passport JS", "Express JS", "Bootstrap"],
+        tech: ["Javascript", "JQuery", "Sequelize ORM", "MySQL", "Handlebars", "Node", "Passport JS", "Express JS", "Bootstrap", "Responsive"],
         active: false
     },
     {
-        label: "",
-        description: "",
-        url: "",
-        github_repo: "",
-        image: "",
-        alt_text: "",
-        tech: [],
-        active: false
+        label: "News Scraper",
+        description: "Save baseball headlines to Mongo DB, while allowing users to attach notes to them.",
+        url: "https://desolate-badlands-16289.herokuapp.com/",
+        github_repo: "https://github.com/mike14747/News-Scraper",
+        image: "images/news_scraper.jpg",
+        alt_text: "Baseball News Scraper",
+        tech: ["Javascript", "JQuery", "MongoDB", "Mongoose", "axios", "Handlebars", "Node", "Express JS", "Bootstrap", "Responsive"],
+        active: true
     },
     {
         label: "",
@@ -177,7 +177,7 @@ portfolioItems.forEach(function (element) {
             var newImgDiv = "<div class='my-col-6'><a href='" + element.url + "' target='_blank'><img src='" + element.image + "' alt='" + element.alt_text + "' class='img-fluid'></a></div>";
             var textTitle = "<h5 class='card-title'><a href='" + element.url + "' target='_blank'>" + element.label + "</a></h5>";
         }
-        var newTextDiv = "<div class='my-col-6'><div class='card-body'>" + textTitle + "<p class='card-text'>" + element.description + "</p><p class='card-text'><a href='" + element.github_repo + "' target='_blank'>GitHub Repo</a></p><p class='card-text'><small class='text-muted'>" + tech + "</small></p></div></div>";
+        var newTextDiv = "<div class='my-col-6'><div class='card-body'>" + textTitle + "<p class='card-text'>" + element.description + "</p><p class='card-text'><a href='" + element.github_repo + "' target='_blank'>GitHub Repo</a></p><p class='card-text tech'><small class='text-muted'>" + tech + "</small></p></div></div>";
         
         newItem.append(newImgDiv).append(newTextDiv);
     }

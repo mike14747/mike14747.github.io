@@ -124,6 +124,10 @@ a:hover {
     background-color: #ffffff;
 }
 
+.tech {
+    line-height: 1.2;
+}
+
 .my-col-6 {
     position: relative;
     width: 50%;
