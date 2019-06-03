@@ -153,7 +153,8 @@ p.bio {
 
 blockquote {
     text-align: center;
-    padding: 0 25px 0 25px;
+    padding: 10px 25px;
     margin: 50px 0 25px 0;
-    border-left: 3px solid #b2c5c2;
+    border-left: 10px solid #ee6c4d;
+    background-color: #fcd581;
 }
