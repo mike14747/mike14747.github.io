@@ -140,14 +140,14 @@ var portfolioItems = [
         active: true
     },
     {
-        label: "",
-        description: "",
-        url: "",
-        github_repo: "",
-        image: "",
-        alt_text: "",
-        tech: [],
-        active: false
+        label: "React JS Memory Game",
+        description: "Memory game with a 19th century presidents theme using React JS framework.",
+        url: "https://mike14747.github.io/react-clicky-game/",
+        github_repo: "https://github.com/mike14747/react-clicky-game",
+        image: "images/react_clicky_game.jpg",
+        alt_text: "React JS Memory Game",
+        tech: ["React JS Framework", "Javascript", "Bootstrap", "Responsive"],
+        active: true
     },
     {
         label: "",
