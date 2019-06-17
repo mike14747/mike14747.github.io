@@ -150,6 +150,16 @@ var portfolioItems = [
         active: true
     },
     {
+        label: "Google Book Search",
+        description: "Search for, view and save books from Google Books.",
+        url: "https://mighty-dusk-72046.herokuapp.com/",
+        github_repo: "https://github.com/mike14747/Google-Book-Search",
+        image: "images/google_book_search.jpg",
+        alt_text: "Google Book Search",
+        tech: ["React JS Framework", "Node JS", "Express Server", "Javascript", "Bootstrap", "Mongo DB", "Responsive"],
+        active: true
+    },
+    {
         label: "",
         description: "",
         url: "",
