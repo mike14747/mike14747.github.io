@@ -1,3 +1,7 @@
+.b-1 {
+    border-width: 1px !important;
+}
+
 .b-2 {
     border-width: 2px !important;
 }
@@ -62,6 +66,18 @@
     border-color: #fffae2 !important;
 }
 
+.bg-content {
+    background-color: #E9EEEE !important;
+}
+
+.bg-header {
+    background-color: #235759 !important;
+}
+
+.text-header {
+    background-color: #fafafa !important;
+}
+
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #ee6c4d;
 }
@@ -85,13 +101,13 @@ a:hover {
     text-decoration: none;
 }
 
-.btn-blue {
+.btn-github {
     color: #fffae2;
-    background-color: #247ba0;
-    border-color: #247ba0;
+    background-color: #235759;
+    border-color: #235759;
 }
   
-.btn-blue:hover {
+.btn-github:hover {
     color: #333;
     background-color: #70c1b3;
     border-color: #70c1b3;
@@ -102,25 +118,16 @@ a:hover {
     padding: 0.5rem 1rem;
 }
 
-.hr_card {
-    max-width: 720px;
-    width: 100%;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border: 1px solid #70c1b3;
-}
-
 .my-card {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    max-width: 720px;
+    max-width: 450px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    border: 1px solid #666666;
     background-color: #ffffff;
 }
 
@@ -128,22 +135,27 @@ a:hover {
     line-height: 1.2;
 }
 
-.my-col-6 {
+.contact_me {
     position: relative;
-    width: 50%;
+    top: -75px;
+    margin-bottom: -75px;
 }
 
-@media (max-width: 767.98px) {
+.contact_bg {
+    background-image: url('../images/contact_bg.png');
+}
+
+/* @media (max-width: 767.98px) {
     .my-card {
       max-width: 360px;
     }
-    .my-col-6 {
-        width: 100%;
-      }
-    .hr_card {
-        max-width: 360px;
-    }
 }
+
+@media (max-width: 575.98px) {
+    .my-card {
+      max-width: 450px;
+    }
+} */
 
 p.bio {
     font-size: 1.10rem;

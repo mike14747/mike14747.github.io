@@ -10,23 +10,13 @@ var portfolioItems = [
         active: false
     },
     {
-        label: "Hotel Worx",
-        description: "Property management app to be used by hotels of any size.",
-        url: "https://hotelworx.herokuapp.com/",
-        github_repo: "https://github.com/Vincent440/hotel-worx",
-        image: "images/hotel_worx.jpg",
-        alt_text: "Hotel Worx",
-        tech: ["React JS Framework", "Node JS", "Express Server", "MySQL", "Javascript", "Bootstrap", "Responsive"],
-        active: true
-    },
-    {
         label: "React JS Memory Game",
         description: "Memory game with a 19th century presidents theme using React JS framework.",
         url: "https://mike14747.github.io/react-clicky-game/",
         github_repo: "https://github.com/mike14747/react-clicky-game",
         image: "images/react_clicky_game.jpg",
         alt_text: "React JS Memory Game",
-        tech: ["React JS Framework", "Node JS", "Express Server", "Javascript", "Bootstrap", "Responsive"],
+        tech: ["React JS Framework", "Javascript", "Bootstrap", "Responsive"],
         active: true
     },
     {
@@ -36,7 +26,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/News-Scraper",
         image: "images/news_scraper.jpg",
         alt_text: "Baseball News Scraper",
-        tech: ["Javascript", "JQuery", "MongoDB", "Mongoose", "axios", "Handlebars", "Node JS", "Express Server", "Bootstrap", "Responsive"],
+        tech: ["Javascript", "JQuery", "MongoDB", "Mongoose", "axios", "Handlebars", "Node", "Express JS", "Bootstrap", "Responsive"],
         active: true
     },
     {
@@ -56,7 +46,7 @@ var portfolioItems = [
         github_repo: "https://github.com/letscook1/project2",
         image: "",
         alt_text: "eMartketplace",
-        tech: ["Javascript", "JQuery", "Sequelize ORM", "MySQL", "Handlebars", "Node", "Passport JS", "Express Server", "Bootstrap", "Responsive"],
+        tech: ["Javascript", "JQuery", "Sequelize ORM", "MySQL", "Handlebars", "Node", "Passport JS", "Express JS", "Bootstrap", "Responsive"],
         active: false
     },
     {
@@ -66,7 +56,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/sequelizedBurger",
         image: "images/seq_burger.jpg",
         alt_text: "Sequelized Veggie Burger",
-        tech: ["Javascript", "JQuery", "Sequelize ORM", "MySQL", "Handlebars", "Node JS", "Express Server", "Bootstrap-only CSS", "Responsive"],
+        tech: ["Javascript", "JQuery", "Sequelize ORM", "MySQL", "Handlebars", "Node", "Express JS", "Bootstrap-only CSS", "Responsive"],
         active: true
     },
     {
@@ -76,7 +66,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/burger",
         image: "images/burger.jpg",
         alt_text: "Veggie Burger",
-        tech: ["Javascript", "JQuery", "MySQL", "Handlebars", "Node JS", "Express Server", "Bootstrap-only CSS", "Responsive"],
+        tech: ["Javascript", "JQuery", "MySQL", "Handlebars", "Node", "Express JS", "Bootstrap-only CSS", "Responsive"],
         active: true
     },
     {
@@ -86,7 +76,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/FriendFinder",
         image: "images/friendfinder.jpg",
         alt_text: "Friend Finder",
-        tech: ["Javascript", "JQuery", "Node JS", "Express Server", "Bootstrap-only CSS", "Responsive"],
+        tech: ["Javascript", "JQuery", "Node", "Express JS", "Bootstrap-only CSS", "Responsive"],
         active: true
     },
     {
@@ -96,7 +86,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/nodejs-mysql",
         image: "images/node-mysql.png",
         alt_text: "Node-MySQL",
-        tech: ["Javascript", "MySQL", "Node JS", "inquirer"],
+        tech: ["Javascript", "MySQL", "Node", "inquirer"],
         active: true
     },
     {
@@ -106,7 +96,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/Constructor-Word-Guess",
         image: "images/word_guess.gif",
         alt_text: "Constructor Word Guess",
-        tech: ["Javascript", "Node JS", "inquirer"],
+        tech: ["Javascript", "Node", "inquirer"],
         active: true
     },
     {
@@ -116,7 +106,7 @@ var portfolioItems = [
         github_repo: "https://github.com/mike14747/liri-node-app",
         image: "images/liri.jpg",
         alt_text: "Liri Bot",
-        tech: ["Javascript", "Node JS", "axios", "APIs", "JSON"],
+        tech: ["Javascript", "Node", "axios", "APIs", "JSON"],
         active: false
     },
     {
@@ -185,22 +175,21 @@ var counter = 0;
 portfolioItems.forEach(function (element) {
     if (element.active === true) {
         counter++;
+        if (counter > 1 && element.active === true) {
+            $("#portfolio_div").append("<hr class='hr_card border-green'>");
+        }
         var tech = element.tech.join(", ");
-        var newItem = $("<div class='my-card my-5'>");
+        var newItem = $("<div class='my-card no-gutters'>");
         if (element.url === "") {
-            var newImgDiv = "<div><img src='" + element.image + "' alt='" + element.alt_text + "' class='img-fluid'></div>";
+            var newImgDiv = "<div class='my-col-6'><img src='" + element.image + "' alt='" + element.alt_text + "' class='img-fluid'></div>";
             var textTitle = "<h5 class='card-title'>" + element.label + "</h5>";
         } else {
-            var newImgDiv = "<div><a href='" + element.url + "' target='_blank'><img src='" + element.image + "' alt='" + element.alt_text + "' class='img-fluid'></a></div>";
+            var newImgDiv = "<div class='my-col-6'><a href='" + element.url + "' target='_blank'><img src='" + element.image + "' alt='" + element.alt_text + "' class='img-fluid'></a></div>";
             var textTitle = "<h5 class='card-title'><a href='" + element.url + "' target='_blank'>" + element.label + "</a></h5>";
         }
-        var newTextDiv = "<div class='card-body'>" + textTitle + "<p class='card-text'>" + element.description + "</p><p class='card-text'><a href='" + element.github_repo + "' target='_blank'>GitHub Repo</a></p><p class='card-text tech'><small class='text-muted'>" + tech + "</small></p></div>";
-
+        var newTextDiv = "<div class='my-col-6'><div class='card-body'>" + textTitle + "<p class='card-text'>" + element.description + "</p><p class='card-text'><a href='" + element.github_repo + "' target='_blank'>GitHub Repo</a></p><p class='card-text tech'><small class='text-muted'>" + tech + "</small></p></div></div>";
+        
         newItem.append(newImgDiv).append(newTextDiv);
     }
-    if (counter % 2 !== 0) {
-        $("#left_col").append(newItem);
-    } else {
-        $("#right_col").append(newItem);
-    }
+    $("#portfolio_div").append(newItem);
 });
