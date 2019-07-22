@@ -1,10 +1,15 @@
 # Mike Gullo on GitHub
 
-Mike Gullo has worked in the tech field for 30+ years as an electronics technician. His most recent role was in designing, building, programming (including writing custom bios modifications for graphics cards and configuration files for running them) and maintaining a sizable array of nearly 300 high-end cryptocurrency mining servers.
+## Summary
+I've been programming for 15+ years and am a recent graduate from the Case Western Reserve University Full Stack program (having been a consistent A+ student)... solidifying my skills as a developer/programmer and am now ready to pursue programming as a career.
 
-A northeast Ohio native, he's lived in the greater Cleveland area his whole life. He's been programming for 15+ years as an amatuer, then attended the Case Western Reserve University Full Stack program in 2019 to solidfy his skills as a developer/programmer and he's now ready to pursue it as a career.
+Not only do I take pride in my coding efficiency and proficiency, I'm always eager to expand my skills into new areas. Solving problems, understanding the code and becoming better at programming has become very addictive.
 
-Not only does he take pride in his coding efficiency and proficency, he's always eager to expand his skills into new areas. Solving problems, understanding the code and becoming better at programming has become very addictive.
+## Experience
+My most recent professional role was in designing, building and maintaining a sizable array of nearly 300 high-end cryptocurrency mining servers, which also included programming graphics card bioses and writing configuration files for running them. After working in the tech field for 30+ years as an electronics technician, I'm thinking it's time for a change.
+
+## Personal
+A northeast Ohio native, I've lived in the greater Cleveland area my whole life. I serve on the planning committee and as a volunteer for the National Health Association (a 70+ year old organization focused on health and wellness).
 
 ---
 
@@ -12,7 +17,8 @@ Not only does he take pride in his coding efficiency and proficency, he's always
 * Javascript and JQuery
 * MySQL and MongoDB
 * NodeJS (including many NPM packages)
-* React
+* Express Server
+* React JS
 * Sequelize ORM
 * MVC Framework
 * PHP
@@ -21,8 +27,6 @@ Not only does he take pride in his coding efficiency and proficency, he's always
 
 ---
 
-He serves on the planning committee and as a volunteer for the National Health Association (a 70+ year old organization focused on health and wellness).
+**Contact Me:** mikegullo4747@gmail.com
 
-His hobbies, when not at his computer, include Baseball (especially the minor leagues), Cycling, National Parks, Gardening and Cooking. Learning has been a lifelong passion.
-
-**Contact Me:** mike14747@oh.rr.com
+**Resume:** https://mike14747.github.io/resume.pdf
