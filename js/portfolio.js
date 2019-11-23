@@ -11,7 +11,7 @@ var portfolioItems = [
     },
     {
         label: "Hotel Worx",
-        description: "Property management app to be used by hotels of any size.",
+        description: "Property management app to be used by hotels of any size. Test username / password are admin / admin.",
         url: "https://hotelworx.herokuapp.com/",
         github_repo: "https://github.com/Vincent440/hotel-worx",
         image: "images/hotel_worx.jpg",
@@ -27,6 +27,16 @@ var portfolioItems = [
         image: "images/react_clicky_game.jpg",
         alt_text: "React JS Memory Game",
         tech: ["React JS Framework", "Node JS", "Express Server", "Javascript", "Bootstrap", "Responsive"],
+        active: true
+    },
+    {
+        label: "Replay Money League",
+        description: "Official RML website",
+        url: "http://www.rmlbb.com",
+        github_repo: "https://github.com/mike14747/rmlbb",
+        image: "images/rmlbb.png",
+        alt_text: "Replay Money League",
+        tech: ["PHP", "MySQL", "Bootstrap"],
         active: true
     },
     {
@@ -198,9 +208,10 @@ portfolioItems.forEach(function (element) {
 
         newItem.append(newImgDiv).append(newTextDiv);
     }
-    if (counter % 2 !== 0) {
-        $("#left_col").append(newItem);
-    } else {
-        $("#right_col").append(newItem);
-    }
+    $("#projects").append(newItem);
+    // if (counter % 2 !== 0) {
+    //     $("#left_col").append(newItem);
+    // } else {
+    //     $("#right_col").append(newItem);
+    // }
 });
