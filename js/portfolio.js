@@ -10,13 +10,13 @@ var portfolioItems = [
         active: false
     },
     {
-        label: "Hotel Worx",
-        description: "Property management app to be used by hotels of any size. Test username / password are admin / admin.",
-        url: "https://hotelworx.herokuapp.com/",
-        github_repo: "https://github.com/Vincent440/hotel-worx",
+        label: "Hotel Worx 3",
+        description: "Property management app to be used by hotels of any size. The online version is the RESTful API and documentation only... not the frontend.",
+        url: "https://hotel-worx-3.mikegullo.com",
+        github_repo: "https://github.com/mike14747/hotel-worx-3",
         image: "images/hotel_worx.jpg",
-        alt_text: "Hotel Worx",
-        tech: ["React JS Framework", "Node JS", "Express Server", "MySQL", "Javascript", "Bootstrap", "Responsive"],
+        alt_text: "Hotel Worx 3",
+        tech: ["React JS", "Node JS", "Express Server", "MySQL", "Javascript", "RESTful API"],
         active: true
     },
     {
