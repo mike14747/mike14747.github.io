@@ -20,13 +20,23 @@ var portfolioItems = [
         active: true
     },
     {
+        label: "Skeeball World Tour",
+        description: "Future web app for SkeeballWorldTour.com",
+        url: "https://skeeballworldtour.mikegullo.com",
+        github_repo: "https://github.com/mike14747/skeeballworldtour",
+        image: "images/skeeballworldtour.jpg",
+        alt_text: "Skeeball World Tour",
+        tech: ["React JS", "Node JS", "Express Server", "MySQL", "Javascript", "RESTful API"],
+        active: true
+    },
+    {
         label: "React JS Memory Game",
         description: "Memory game with a 19th century presidents theme using React JS framework.",
         url: "https://mike14747.github.io/react-clicky-game/",
         github_repo: "https://github.com/mike14747/react-clicky-game",
         image: "images/react_clicky_game.jpg",
         alt_text: "React JS Memory Game",
-        tech: ["React JS Framework", "Node JS", "Express Server", "Javascript", "Bootstrap", "Responsive"],
+        tech: ["React JS", "Node JS", "Express Server", "Javascript", "Bootstrap", "Responsive"],
         active: true
     },
     {
