@@ -219,9 +219,4 @@ portfolioItems.forEach(function (element) {
         newItem.append(newImgDiv).append(newTextDiv);
     }
     $("#projects").append(newItem);
-    // if (counter % 2 !== 0) {
-    //     $("#left_col").append(newItem);
-    // } else {
-    //     $("#right_col").append(newItem);
-    // }
 });
