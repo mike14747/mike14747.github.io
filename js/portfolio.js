@@ -32,8 +32,8 @@ var portfolioItems = [
     {
         label: "React JS Memory Game",
         description: "Memory game with a 19th century presidents theme using React JS framework.",
-        url: "https://mike14747.github.io/react-clicky-game/",
-        github_repo: "https://github.com/mike14747/react-clicky-game",
+        url: "https://react-clicky-game-fc.mikegullo.com/",
+        github_repo: "https://github.com/mike14747/react-clicky-game-fc",
         image: "images/react_clicky_game.jpg",
         alt_text: "React JS Memory Game",
         tech: ["React JS", "Node JS", "Express Server", "Javascript", "Bootstrap", "Responsive"],
