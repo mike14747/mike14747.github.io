@@ -1,0 +1,72 @@
+.contact_me {
+    position: relative;
+    top: -75px;
+    margin-bottom: -75px;
+}
+
+.contact_bg {
+    background-image: url('../images/contact_bg.png');
+}
+
+p.bio {
+    font-size: 1.1rem;
+    color: #666666;
+    line-height: 1.75rem;
+}
+
+.my-card {
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.25rem;
+}
+
+.my-card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fcd581;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.my-card-body {
+    padding: 1.25rem;
+    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+.my-card-body div {
+    border-bottom: 1px #cccccc solid;
+    padding: 0.75rem;
+}
+
+.my-card-body div:first-child {
+    padding: 0 0.75rem 0.75rem 0.75rem;
+}
+
+.my-card-body div:last-child {
+    border: 0;
+    padding: 0.75rem 0.75rem 0 0.75rem;
+}
+
+.cards-right {
+    max-width: 300px;
+    word-wrap: break-word;
+    border: 1px #999999 solid;
+    border-radius: 0.25rem;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cards-right-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fffae2;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.cards-right-body {
+    padding: 1.25rem;
+}

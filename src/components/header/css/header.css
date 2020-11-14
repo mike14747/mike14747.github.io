@@ -1,0 +1,94 @@
+#header {
+    width: 100%;
+    border-bottom: 2px #70c1b3 solid;
+    background-color: #ffffff;
+    margin-bottom: 1rem;
+    padding: 0 0 0.50rem 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    #header {
+        max-width: 540px;
+        padding: 0 0 1rem 0;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #header {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    #header {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #header {
+        max-width: 1140px;
+    }
+}
+
+.bg-header {
+    background-color: #235759 !important;
+}
+
+#my-pic {
+    float: left;
+    margin: 1rem 0.5rem 0 0.50rem;
+    width: 50px;
+    height: auto;
+}
+
+@media (min-width: 576px) {
+    #my-pic {
+        width: 75px;
+        margin: 0.50rem 0.5rem 0 0.50rem;
+    }
+}
+
+.btn-active {
+    background-color: #fcd581;
+    text-decoration: none;
+    padding: 0.25rem 0.75rem;
+    margin: 0 0.50rem 0.50rem 0.50rem;
+}
+
+.btn-inactive {
+    background-color: #fffae2;
+    color: #999999;
+    padding: 0.25rem 0.75rem;
+    margin: 0 0.50rem;
+}
+
+.nav-btn {
+    display: inline-block;
+    border-top: 0;
+    border-left: 1px #999999 solid;
+    border-right: 1px #999999 solid;
+    border-bottom: 1px #999999 solid;
+    border-bottom-left-radius: 0.50rem;
+    border-bottom-right-radius: 0.50rem;
+}
+
+.btn-active:hover {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+#my-role {
+    font-style: italic;
+    color: #ee6c4d !important;
+    font-size: 80%;
+    margin-top: 0.50rem;
+}
+
+@media (min-width: 576px) {
+    #my-role {
+        font-size: 100%;
+    }
+}
