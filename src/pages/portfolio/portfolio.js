@@ -2,6 +2,8 @@ import React from 'react';
 
 import portfolioItems from './data/portfolio';
 
+import githubIcon from './images/github_icon.png';
+
 import './css/portfolio.css';
 
 const Portfolio = () => {
@@ -25,7 +27,7 @@ const Portfolio = () => {
                                 {item.description}
                             </div>
                             <div className="pic-card-repo">
-                                <a href={item.github_repo} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                                <a href={item.github_repo} target="_blank" rel="noopener noreferrer"><img src={githubIcon} alt="GitHub Repo" className="mb-1 mr-2" />GitHub Repo</a>
                             </div>
                             <div className="pic-card-tech">
                                 {item.tech.join(', ')}

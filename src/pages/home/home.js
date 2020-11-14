@@ -34,7 +34,7 @@ const Home = () => {
             <div className="row my-4">
                 <div className="col-md-7">
                     <div className="my-card mt-2 mb-4">
-                        <h6 className="my-card-header px-3 py-3 m-0"><img src={codeIcon} alt="My Programming Skills" className="mr-2" />My Programming Skills</h6>
+                        <h6 className="my-card-header px-3 py-3 m-0"><img src={codeIcon} alt="My Programming Skills" className="mb-1 mr-2" />My Programming Skills</h6>
                         <div className="my-card-body p-3 bg-white text-secondary">
                             {Skills && Skills.length > 0 &&
                                 Skills.map((skill, index) => (
@@ -51,7 +51,7 @@ const Home = () => {
                         </div>
                         <div className="cards-right-body">
                             <div className="mb-4">
-                                <img src={githubIcon} alt="Me on GitHub" className="mr-3" /><a href="https://github.com/mike14747" target="_blank" rel="noopener noreferrer">https://github.com/mike14747</a>
+                                <img src={githubIcon} alt="Me on GitHub" className="mb-1 mr-3" /><a href="https://github.com/mike14747" target="_blank" rel="noopener noreferrer">https://github.com/mike14747</a>
                             </div>
                             <div>
                                 <img src={articleIcon} alt="View my résumé" className="mr-3" /><a href="resume.pdf" target="_blank">My Résumé</a>

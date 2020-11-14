@@ -20,11 +20,11 @@ const Header = () => {
                 <div id="btn-div">
                     {location.pathname === '/'
                         ? <div className="btn-wrapper"><div className="nav-btn btn-inactive">About</div></div>
-                        : <div className="btn-wrapper"><Link to="/"><div className="nav-btn btn-active">About</div></Link></div>
+                        : <div className="btn-wrapper"><Link to="/" className="text-decoration-none"><div className="nav-btn btn-active">About</div></Link></div>
                     }
                     {location.pathname === '/portfolio'
                         ? <div className="btn-wrapper"><div className="nav-btn btn-inactive">Portfolio</div></div>
-                        : <div className="btn-wrapper"><Link to="/portfolio"><div className="nav-btn btn-active"><div>Portfolio</div></div></Link></div>
+                        : <div className="btn-wrapper"><Link to="/portfolio" className="text-decoration-none"><div className="nav-btn btn-active"><div>Portfolio</div></div></Link></div>
                     }
                 </div>
             </div>

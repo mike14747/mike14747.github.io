@@ -9,7 +9,8 @@
 }
 
 .bg-header {
-    background-color: #235759;
+    /* background-color: #235759; */
+    background-color: #5c696f;
 }
 
 #my-pic {
@@ -20,14 +21,19 @@
 }
 
 .btn-active {
-    background-color: #fcd581;
-    text-decoration: none;
+    background-color: #fcedce;
+    color: #0050ef;
     padding: 0.5rem;
 }
 
+.btn-active:hover {
+    background-color: #fff3d3;
+    color: #003299;
+}
+
 .btn-inactive {
-    background-color: #fffae2;
-    color: #999999;
+    background-color: #fcfcf0;
+    color: #a7b2bd;
     padding: 0.5rem;
 }
 
@@ -41,6 +47,7 @@
 .btn-wrapper {
     flex: 50%;
     max-width: 50%;
+    text-decoration: none;
 }
 
 #lower-div {
@@ -79,21 +86,21 @@
 
     .nav-btn {
         border-top: 0;
-        border-left: 1px #999999 solid;
-        border-right: 1px #999999 solid;
-        border-bottom: 1px #999999 solid;
+        border-left: 1px solid rgba(0, 0, 0, 0.25);
+        border-right: 1px solid rgba(0, 0, 0, 0.25);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.25);
         border-bottom-left-radius: 0.5rem;
         border-bottom-right-radius: 0.5rem;
     }
 
     .btn-active {
-        padding: 0.25rem 0.75rem;
-        margin: 0 0.5rem 0.5rem 0.5rem;
+        padding: 0.5rem 0.75rem;
+        margin: 0 0.5rem;
     }
 
     .btn-inactive {
-        padding: 0.5rem 0.75rem;
-        margin: 0 0.5rem;
+        padding: 0.25rem 0.75rem;
+        margin: 0 0.5rem 0.5rem 0.5rem;
     }
 
     .btn-active:hover {
