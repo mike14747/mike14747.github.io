@@ -29,11 +29,10 @@ const Portfolio = () => {
                             <div className="pic-card-repo">
                                 <a href={item.github_repo} target="_blank" rel="noopener noreferrer"><img src={githubIcon} alt="GitHub Repo" className="mb-1 mr-2" />GitHub Repo</a>
                             </div>
-                            <div className="pic-card-tech">
-                                {item.tech.join(', ')}
-                            </div>
                         </div>
-
+                        <div className="pic-card-footer">
+                            {item.tech.join(', ')}
+                        </div>
                     </div>
                 ))
             }
