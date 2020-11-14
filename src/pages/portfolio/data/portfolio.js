@@ -16,7 +16,7 @@ const items = [
         github_repo: 'https://github.com/mike14747/hotel-worx-3',
         image: '/images/hotel_worx.jpg',
         alt_text: 'Hotel Worx 3',
-        tech: ['React JS', 'Node JS', 'Express Server', 'MySQL', 'Javascript', 'RESTful API'],
+        tech: ['React JS', 'Node JS', 'Express Server', 'MySQL', 'Javascript', 'RESTful API', 'Integration Testing', 'Passport JS'],
         active: true,
     },
     {
@@ -46,7 +46,7 @@ const items = [
         github_repo: 'https://github.com/mike14747/imcoding',
         image: '/images/imcoding.jpg',
         alt_text: 'IMCoding',
-        tech: ['React JS', 'Node JS', 'Express Server', 'MongoDB', 'Javascript', 'RESTful API', 'mocha, chai, chai-http', 'Passport JS'],
+        tech: ['React JS', 'Node JS', 'Express Server', 'MongoDB', 'Javascript', 'RESTful API', 'Integration Testing', 'Passport JS'],
         active: true,
     },
     {

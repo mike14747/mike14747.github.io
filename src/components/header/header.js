@@ -13,18 +13,18 @@ const Header = () => {
         <div id="header">
             <Link to="/"><img id="my-pic" src={myProfilePic} alt="Mike Gullo profile pic" /></Link>
             <h3 className="m-0 p-2 bg-header text-white"><span className="small"><sup><u>Mike</u></sup></span> Gullo</h3>
-            <div className="d-flex justify-content-between">
+            <div id="lower-div">
                 <div id="my-role">
                     Developer / Programmer
                 </div>
-                <div className="text-right">
+                <div id="btn-div">
                     {location.pathname === '/'
                         ? <div className="nav-btn btn-inactive">About</div>
-                        : <Link to="/"><div className="nav-btn btn-active">About</div></Link>
+                        : <div className="nav-btn btn-active"><Link to="/"><div>About</div></Link></div>
                     }
                     {location.pathname === '/portfolio'
                         ? <div className="nav-btn btn-inactive">Portfolio</div>
-                        : <Link to="/portfolio"><div className="nav-btn btn-active">Portfolio</div></Link>
+                        : <div className="nav-btn btn-active"><Link to="/portfolio"><div>Portfolio</div></Link></div>
                     }
                 </div>
             </div>
