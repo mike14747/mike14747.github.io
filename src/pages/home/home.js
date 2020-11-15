@@ -45,7 +45,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="col-md-5">
-                    <div className="cards-right mx-auto mt-2 mb-5">
+                    <div className="cards-right mx-auto mt-2 mb-4">
                         <div className="cards-right-header">
                             <h6 className="m-0">More Info</h6>
                         </div>
@@ -58,7 +58,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="cards-right mx-auto mb-5 pb-0 contact_bg">
+                    <div className="cards-right mx-auto mb-4 pb-0 contact_bg">
                         <div className="cards-right-body text-center">
                             <img src={contactMe} alt="Contact Me" className="img-fluid contact_me" />
                             <div className="mt-2">
